@@ -1,27 +1,6 @@
-## create a new repository on the command line
+色々なドキュメントを保存する場所
 
-echo "# various_documents" >> README.md
+Gitで管理
 
-git init
+https://github.com/fujinot/various_documents.git
 
-git add README.md
-
-git commit -m "first commit"
-
-git branch -M main
-
-git remote add origin https://github.com/fujinot/various_documents.git
-
-git push -u origin main
-
-
----
-
-
-## push an existing repository from the command line
-
-git remote add origin https://github.com/fujinot/various_documents.git
-
-git branch -M main
-
-git push -u origin main
